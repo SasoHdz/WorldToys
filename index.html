@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Snowpack & Tailwind App</title>
+  </head>
+  <body>
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p
+            class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+            >
+            Dibujando Sonrisas en los pequeños
+          </p>
+          <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+          >
+          All Juguetes
+        </h3>
+        <img class="mt-4 mx-auto rounded" src="https://media.canalnet.tv/2019/06/toy-story-974x550.png" alt="Logo" width="350">
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          Estamos buscando a los reyes magos. Queremos que ningun niño se quede sin su jueguete de ensueño.
+          Somos distribuidores oficiales y podemos hacer mas facil tu busqueda. Llegamos a la localidad de Ezequiel
+          Montes. Busca aqui mismo lo que necesitas, sigue los pasos para hacer el pedido y nosotros lo llevamos
+          a la puerta de tu casa.
+        </p>
+      </div>
+      <form class="flex flex-col items-center"action="">
+          <label class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto" for="toy">
+            Busca tu juguete de ensueños:
+          </label>
+          <input for="search" class="mt-4 w-60 rounded border-2 border-blue-400" id="toy" type="text" required>
+          <button class="w-40 mt-4 rounded-lg bg-blue-500 text-white text-xl" type="button" id="search">
+            Buscar
+          </button>
+      </form>
+      <div class="overflow-y-scroll mt-4 mx-auto w-5/6 grid grid-cols-3" id="app">
+        
+      </div>
+    </div>
+    <p class="text-center mt-16 text-xl leading-7 text-gray-500 underline">
+      <a href="https://twitter.com/SasoHdz"
+        >By @SasoHdz</a
+      >
+    </p>
+    <script type="module" src="/_dist_/index.js"></script>
+  </body>
+</html>
