@@ -8,11 +8,6 @@ module.exports = {
     baseUrl: '',
   },
   plugins: [
-    [
       '@snowpack/plugin-webpack',
-      {
-        /* see "Plugin Options" below */
-      },
-    ],
   ],
 }
