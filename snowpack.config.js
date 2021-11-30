@@ -7,7 +7,4 @@ module.exports = {
   buildOptions: {
     baseUrl: '',
   },
-  plugins: [
-      '@snowpack/plugin-webpack',
-  ],
 }
