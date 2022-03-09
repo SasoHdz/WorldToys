@@ -31,13 +31,13 @@ const fetchData = (url) => {
 
             if(i%2==0){
                 container.className =
-                "text-center mt-4 mx-2 border-2 border-solid border-blue-400 bg-blue-300 items-center container-md rounded-2xl";
+                "text-center mt-4 mx-2 border-2 border-solid border-blue-400 bg-blue-300 items-center sm:container-sm md:container-md rounded-2xl";
                 buton.className = "w-40 mt-4 rounded-lg bg-blue-500 text-white text-xl";
             }
             else {
                 container.className =
                 "text-center mt-4 mx-2 border-2 border-solid border-pink-400 bg-pink-300 items-center container-md rounded-2xl";
-                buton.className = "w-40 mt-4 rounded-lg bg-pink-500 text-white text-xl";
+                buton.className = "w-40 mt-4 mb-4 rounded-lg bg-pink-500 text-white text-xl";
             }
             i++;
 
@@ -77,7 +77,7 @@ const cleanToys = () => {
     toys.remove();
     app = document.createElement('div');
     app.id = 'app';
-    app.className = "overflow-y-scroll mt-4 mx-auto w-5/6 grid grid-cols-3";
+    app.className = "overflow-y-scroll mt-4 mx-auto w-5/6 grid sm:grid-cols-2 md:grid-cols-3";
 
     const container = document.querySelector('div');
     container.appendChild(app);
