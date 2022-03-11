@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
@@ -11,7 +11,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="./_dist_/index.css"
+      href="/_dist_/index.css"
     />
     <title>Snowpack & Tailwind App</title>
   </head>
@@ -40,12 +40,12 @@
           <label class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto" for="toy">
             Busca tu juguete de ensueños:
           </label>
-          <input placeholder="carro a control remoto" class="mt-4 w-2/4 h-10 rounded-full border-2 border-blue-400 text-lg text-center" id="toy" type="text" required>
+          <input placeholder="carro a control remoto" class="mt-4 sm:w-1/2 h-10 rounded-full border-2 border-blue-400 text-lg text-center" id="toy" type="text" required>
           <button class="w-40 mt-4 rounded-lg bg-blue-500 text-white text-xl" type="button" id="search">
             Buscar
           </button>
       </form>
-      <div class="overflow-y-scroll mt-4 mx-auto w-5/6 grid grid-cols-3" id="app">
+      <div class="overflow-y-scroll mt-4 mx-auto w-5/6 grid sm:grid-cols-2 md:grid-cols-3" id="app">
         
       </div>
     </div>
@@ -54,6 +54,6 @@
         >By @SasoHdz</a
       >
     </p>
-    <script type="module" src="./_dist_/index.js"></script>
+    <script type="module" src="/_dist_/index.js"></script>
   </body>
 </html>
